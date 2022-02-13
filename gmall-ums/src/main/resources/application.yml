@@ -25,8 +25,8 @@ spring:
     sampler:
       probability: 1
 mybatis-plus:
-  mapper-locations: classpath:mapper/pms/*.xml  # 读取映射文件
-  type-aliases-package: com.atguigu.gmall.pms.entity
+  mapper-locations: classpath:mapper/ums/*.xml  # 读取映射文件
+  type-aliases-package: com.atguigu.gmall.ums.entity
   global-config:
     db-config:
       id-type: auto  # 默认使用数据库自增
